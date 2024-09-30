@@ -16,7 +16,7 @@ spec:
         app: linux
     spec:
       containers:
-      - image: linuxserver/jellyfin
+      - image: linuxserver/ombi
         name: linux
         imagePullPolicy: Always
         ports: 

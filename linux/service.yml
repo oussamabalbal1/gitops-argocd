@@ -6,9 +6,9 @@ metadata:
   name: linux-service
 spec:
   ports:
-  - port: 8096 #change to 80
+  - port: 3579 #change to 80
     protocol: TCP
-    targetPort: 8096 #change to 80
+    targetPort: 3579 #change to 80
   selector:
     app: linux
   type: LoadBalancer
