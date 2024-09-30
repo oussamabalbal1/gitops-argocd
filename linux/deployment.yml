@@ -5,7 +5,7 @@ metadata:
     app: linux
   name: linux
 spec:
-  replicas: 6
+  replicas: 2
   selector:
     matchLabels:
       app: linux
