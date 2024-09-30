@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: linux
+  name: linux
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: linux
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: linux
+    spec:
+      containers:
+      - image: linuxserver/jellyfin
+        name: linux
+        imagePullPolicy: Always
+        ports: 
+        - containerPort: 8096
