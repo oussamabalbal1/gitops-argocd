@@ -20,4 +20,4 @@ spec:
         name: linux
         imagePullPolicy: Always
         ports: 
-        - containerPort: 8096
+        - containerPort: 3579

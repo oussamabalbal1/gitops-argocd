@@ -7,7 +7,6 @@ metadata:
 spec:
   ports:
   - port: 3579 #change to 80
-    protocol: TCP
     targetPort: 3579 #change to 80
   selector:
     app: linux
