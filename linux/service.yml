@@ -10,5 +10,5 @@ spec:
     protocol: TCP
     targetPort: 8096 #change to 80
   selector:
-    app: solar-system
+    app: linux
   type: LoadBalancer
