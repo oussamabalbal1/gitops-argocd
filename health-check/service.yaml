@@ -10,4 +10,4 @@ spec:
     nodePort: 30335
   selector:
     app: random-shapes
-  type: NodePort
+  type: LoadBalancer
